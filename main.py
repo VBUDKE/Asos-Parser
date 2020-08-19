@@ -2,7 +2,6 @@ import requests
 from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
 
-# Глобальные переменные
 a = 1
 
 page_link = input("Введите URL: ").strip()

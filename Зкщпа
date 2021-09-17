@@ -1,0 +1,12 @@
+def Bebra(n):
+    Nyx=""
+    if n%3==0:
+        Nyx=Nyx+"Pling"
+    if n%5==0:
+        Nyx=Nyx+"Plang"
+    if n%7==0:
+        Nyx=Nyx+"Plong"
+    if Nyx=="":
+        Nyx=Nyx+ str(n)
+    return Nyx
+print(Bebra(int(input())))
